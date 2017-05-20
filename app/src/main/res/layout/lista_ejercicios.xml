@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <GridView
+        android:id="@+id/listaEjercicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="4dip"
+        android:verticalSpacing="4dip"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:numColumns="3"
+        android:fitsSystemWindows="true"
+        android:stretchMode="columnWidth" />
+</LinearLayout>
