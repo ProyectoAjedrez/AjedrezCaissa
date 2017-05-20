@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceScreen
+        android:key="configuración_ajedrez"
+        android:summary=""
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/menu_configuracion" >
+        <PreferenceCategory android:title="@string/categoria1">
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="coordenadas"
+                android:summary="@string/coordenadas_descripcion"
+                android:title="@string/coordenadas_titulo" />
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="guia"
+                android:summary="@string/guia_descripcion"
+                android:title="@string/guia_titulo" />
+
+
+            <com.telefonica.first.tableroprueba.IconPickerPreference
+                android:entries="@array/iconName"
+                android:entryValues="@array/iconFile"
+                android:key="@string/custom_icon_key"
+                android:layout="@layout/icon_item_preference"
+                android:title="@string/icon_label"
+                android:summary="Selecciona un Color"
+            custom:iconFile="@string/icon_default" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/categoria2">
+            <ListPreference
+                android:entries="@array/idioma"
+                android:entryValues="@array/idioma_valor"
+                android:defaultValue="es"
+                android:key="idioma"
+                android:summary="@string/idioma_descripcion"
+                android:title="@string/idioma_titulo" />
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/categoria3"
+            android:key="categoria3">
+
+            <PreferenceScreen
+                android:key="admin"
+                android:summary="@string/tablero_descripcion"
+                android:title="@string/tablero_titulo" />
+        </PreferenceCategory>
+
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="sugerencia"
+        android:summary=""
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/sugerencia" />
+    <PreferenceScreen
+        android:key="cerrar"
+        android:summary=""
+        android:icon="@android:drawable/ic_delete"
+        android:title="@string/cerrar" />
+</PreferenceScreen>

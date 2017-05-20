@@ -1,0 +1,166 @@
+<resources>
+    <string name="splash">Caissa</string>
+    <string name="logearse">Log in</string>
+    <string name="registrarse">Sign up</string>
+    <string name="app_name">Board</string>
+    <string name="tipoEjercicios">Solve puzzles</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="titulo_sugerencia">"Enter your suggestion:"</string>
+    <string name="crearTablero">Create Board</string>
+    <string name="action_settings">Menu</string>
+    <string name="menu_configuracion">Settings</string>
+    <string name="ejercicio">Puzzle</string>
+    <string name="sugerencia">Suggestion</string>
+    <string name="categoria1">BOARD</string>
+    <string name="categoria2">LANGUAGE</string>
+    <string name="categoria3">Admin</string>
+    <string name="tablero_titulo">Create Board</string>
+    <string name="tablero_descripcion"></string>
+    <string name="coordenadas_titulo">Show coordinates</string>
+    <string name="coordenadas_descripcion">Show coordinates of board [a,h] [1-8]</string>
+    <string name="guia_titulo">Show Guide</string>
+    <string name="guia_descripcion">Show Guide</string>
+    <string name="idioma_titulo">Language</string>
+    <string name="idioma_descripcion">Allows you to choose the language of the application</string>
+    <string name="default_summary">Choose the color of the board</string>
+    <string name="finalizado">Endgame</string>
+    <string name="continua">Keep going</string>
+    <string name="error">Bad move!</string>
+    <string name="cargando">Loading Puzzles...</string>
+    <string name="titulo_cargando">"Please, wait"</string>
+    <string name="jaque">Mate</string>
+    <string name="ataque">Double attack</string>
+    <string name="clavada">Nailed</string>
+    <string name="defensa">Defense Elimination</string>
+    <string name="rayos">X-ray</string>
+    <string name="nivel_facil">Begginer</string>
+    <string name="nivel_medio">Intermediate</string>
+    <string name="nivel_dificil">Advanced</string>
+    <string name="error_cargar">The file could not be loaded, please check your network connection</string>
+    <string name="cerrar">Log out</string>
+    <string name="salirJuego">Do you really want to leave Caissa?"</string>
+    <string name="botonVolver">Back</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+
+    <string name="identificate">&#160;&#160;&#160;Log in&#160;&#160;&#160;</string>
+    <string name="registrate">&#160;&#160;&#160;Sign up&#160;&#160;&#160;</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="btidentificate">LOG IN</string>
+    <string name="btregistrate">SIGN UP</string>
+    <string name="hinttupassword">password</string>
+    <string name="hintrepitepassword">password</string>
+    <string name="hinttuemail">email address</string>
+
+    <string name="erronea">Wrong Password, please enter it again</string>
+    <string name="registrado">E-mail address not found</string>
+    <string name="usuario">Log in user</string>
+    <string name="error2">There was an internal mistake</string>
+    <string name="falta_contraseña">Enter your password, please</string>
+    <string name="falta_correo">Enter a correct E-mail address, please</string>
+    <string name="conectividad">You are not connected any network</string>
+    <string name="repite_contraseña">Enter a correct password, please</string>
+    <string name="email_valido">Enter a correct E-mail address, please</string>
+    <string name="email_registrado">This E-mail address is already signed up</string>
+    <string name="registro_realizado">Sign up already done</string>
+    <string name="email2">E-mail address and password already signed up</string>
+
+    <string-array name="idioma">
+        <item>Spanish</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="idioma_valor">
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="iconName">
+        <item>Light Blue</item>
+        <item>Yellow</item>
+        <item>Dark Blue</item>
+        <item>Dark Pink</item>
+        <item>Turquoise Blue</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Pink</item>
+
+    </string-array>
+
+    <string-array name="iconFile">
+        <item>ic_azul_claro</item>
+        <item>ic_amarillo</item>
+        <item>ic_azul_oscuro</item>
+        <item>ic_rosa_oscuro</item>
+        <item>ic_azul_turquesa</item>
+        <item>ic_morado</item>
+        <item>ic_naranja</item>
+        <item>ic_rosa</item>
+
+    </string-array>
+
+
+    <string-array name="colores">
+        <item>Blanco</item>
+        <item>Negro</item>
+    </string-array>
+
+
+    <string-array name="niveles">
+        <item>Facil</item>
+        <item>Medio</item>
+        <item>Dificil</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>Jaque Mate</item>
+        <item>Ataque Doble</item>
+        <item>Clavada</item>
+        <item>Eliminacion de la Defensa</item>
+        <item>Rayos X</item>
+    </string-array>
+
+
+
+    <string-array name="frasesFallo">
+        <item>Could you do it better?</item>
+        <item>¡Nice try!</item>
+        <item>¡This way, you will not get it!</item>
+        <item>think a little!</item>
+    </string-array>
+
+    <string-array name="frasesAcierto">
+        <item>Keep going!</item>
+        <item>You are in the good way!</item>
+        <item>Very good!</item>
+        <item>¡Good job!</item>
+    </string-array>
+
+
+
+
+
+    <string name="icon_default">ic_azul_claro</string>
+
+    <string name="custom_icon_key">tableroColores</string>
+    <string name="icon_label">Color of Board</string>
+
+    <string name="jaque_facil">Mate Begginer</string>
+    <string name="jaque_medio">Mate Intermediate</string>
+    <string name="jaque_dificil">Mate Advanced</string>
+    <string name="ataque_facil">Double Begginer</string>
+    <string name="ataque_medio">Double Intermediate</string>
+    <string name="ataque_dificil">Double Advanced</string>
+    <string name="clavada_facil">Nailed Begginer</string>
+    <string name="clavada_media">Nailed Intermediate</string>
+    <string name="clavada_dificil">Nailed Advanced</string>
+    <string name="eliminacion_facil">Defense Begginer</string>
+    <string name="eliminacion_media">Defense Intermediate</string>
+    <string name="eliminacion_dificil">Defense Advanced</string>
+    <string name="rayosX_facil">X-Ray Begginer</string>
+    <string name="rayosX_medio">X-Ray Intermediate</string>
+    <string name="rayosX_dificil">X-Ray Advanced</string>
+
+</resources>
+
