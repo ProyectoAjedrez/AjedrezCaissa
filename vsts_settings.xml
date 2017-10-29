@@ -1,17 +1,7 @@
 <application>
   <component name="VSTSSettings">
     <option name="serverContexts">
-      <array>
-        <ServerContextState>
-          <option name="type" value="VSO" />
-          <option name="uri" value="https://desarrolloecoembes.visualstudio.com/ReciclApp/_git/ReciclAppJava" />
-          <option name="serverUri" value="https://desarrolloecoembes.visualstudio.com" />
-          <option name="userId" value="c28794cc-09bd-6cc4-a936-9cfed58a7bd2" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;dd6ae012-1a4b-433b-a417-cb06da78cd4b&quot;,&quot;name&quot;:&quot;desarrolloecoembes&quot;,&quot;url&quot;:&quot;https://desarrolloecoembes.visualstudio.com/_apis/projectCollections/dd6ae012-1a4b-433b-a417-cb06da78cd4b&quot;}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Application for educate the citizen about recycling&quot;,&quot;id&quot;:&quot;1cd34eca-27ce-4b8a-866b-467e6336aee9&quot;,&quot;name&quot;:&quot;ReciclApp&quot;,&quot;revision&quot;:25,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://desarrolloecoembes.visualstudio.com/_apis/projects/1cd34eca-27ce-4b8a-866b-467e6336aee9&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:&quot;refs/heads/master&quot;,&quot;id&quot;:&quot;51ed2b82-f9a8-4978-a1b3-2c9c8de29b39&quot;,&quot;name&quot;:&quot;ReciclAppJava&quot;,&quot;remoteUrl&quot;:&quot;https://desarrolloecoembes.visualstudio.com/ReciclApp/_git/ReciclAppJava&quot;,&quot;url&quot;:&quot;https://desarrolloecoembes.visualstudio.com/_apis/git/repositories/51ed2b82-f9a8-4978-a1b3-2c9c8de29b39&quot;,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Application for educate the citizen about recycling&quot;,&quot;id&quot;:&quot;1cd34eca-27ce-4b8a-866b-467e6336aee9&quot;,&quot;name&quot;:&quot;ReciclApp&quot;,&quot;revision&quot;:25,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://desarrolloecoembes.visualstudio.com/_apis/projects/1cd34eca-27ce-4b8a-866b-467e6336aee9&quot;},&quot;_links&quot;:null}" />
-        </ServerContextState>
-      </array>
+      <array />
     </option>
     <option name="properties">
       <array>
