@@ -6,6 +6,10 @@
     <option name="properties">
       <array>
         <PropertyState>
+          <option name="name" value="tfHome" />
+          <option name="value" value="" />
+        </PropertyState>
+        <PropertyState>
           <option name="name" value="repoRoot" />
           <option name="value" value="C:\Users\Adrian_2\Desktop" />
         </PropertyState>
